@@ -75,19 +75,16 @@ li {
 }
 
 #search-form input {
-	position: absolute;
-	top: 40px;
-	left: 655px;
+	float: right;
 	background-color: #f3f3f3;
+	background-image: url('img/icon-search.png');
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 95%;
 	border: none;
 	border-radius: 20px;
-	padding: 10px 120px 10px 20px;
-}
-
-#search-icon {
-	position: absolute;
-	top: 47px;
-	left: 920px;
+	size: 50px;
+	padding: 10px 20px 10px 20px;
 }
 
 .menu-text {
@@ -440,4 +437,22 @@ li {
 	padding: 20px 0 20px;
 	text-align: center;
 	font-size: 14px;
+}
+
+@media (max-width: 530px) {
+	#datetime {
+		display: none;
+	}
+}
+
+@media (max-width: 390px) {
+	#black-bar {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 350px) {
+	#black-bar {
+		font-size: 12px;
+	}
 }
