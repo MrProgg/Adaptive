@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Новостное агентство</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header id="black-bar">
+		<div class="fixed-container">
+			Самые <a href="#">свежие новости</a> в реальном времени
+			<div id="datetime">12:30 19.06.2018</div>
+		</div>
+	</header>
+	<header id="header">
+		<div class="fixed-container">
+			<img id="logo" src="img/logo.png" alt="logo">
+			<div id="header-city">
+				<a href="#">Москва</a>
+				<img src="img/icon-down.png" width="13" alt="icon-down">
+			</div>
+			<div id="weather-text">+22°C</div>
+			<img id="weather-icon" src="img/icon-weather.png" alt="icon-weather">
+			<div>
+				<form id="search-form">
+					<input type="text" placeholder="Поиск по сайту">
+				</form>
+			</div>
+			<div>
+				<img id="search-icon" src="img/icon-search.png" alt="search icon">
+			</div>
+		</div>
+	</header>
+	<nav id="menu-container">
+		<div class="fixed-container">
+			<p class="menu-text">Главная</p>
+			<p class="menu-text">Политика</p>
+			<p class="menu-text">Общество</p>
+			<p class="menu-text">Экономика</p>
+			<p class="menu-text">В мире</p>
+			<p class="menu-text">Проишествия</p>
+			<p class="menu-text">Спорт</p>
+			<p class="menu-text">Наука</p>
+			<p class="menu-text-last">Туризм</p>
+		</div>
+	</nav>
+	<div id="central-container">
+		<div class="fixed-container">
+			<div id="column-left">
+				<h2>Новости дня</h2>
+				<div class="news-item">
+					<div class="news-item-text">
+						Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+					</div>
+					<div class="news-item-props">
+						<a href="#">/ЧМ по футболу</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						«Нафтогаз»: суд разрешил заморозить активы «Газпрома» в Великобритании
+					</div>
+					<div class="news-item-props">
+						<a href="#">/Политика</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						Минтранс предписал оборудовать общественный транспорт кондиционерами
+					</div>
+					<div class="news-item-props">
+						<a href="#">/Транспорт</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						Летние кафе Москвы временно закроются из-за непогоды
+					</div>
+					<div class="news-item-props">
+						<a href="#">/Погода</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						Комплексное благоустройство Щелковского шоссе завершится в июне
+					</div>
+					<div class="news-item-props">
+						<a href="#">/Транспорт</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						В Москве назвали самое популярное мороженое у болельщиков ЧМ-2018
+					</div>
+					<div class="news-item-props">
+						<a href="#">/ЧМ по футболу</a>
+						<div class="news-time">10:48</div>
+						<div class="news-comments-count">15</div>
+					</div>
+					<div id="all-news-button"><a href="#">Все новости</a></div>
+				</div>
+				<div id="currency">
+					<p id="currency-value">Курс валют к EUR</p>
+				</div>
+			</div>
+			<main id="column-center">
+				<div id="main-news">
+					<a href="#">/Политика</a>
+					<div id="main-news-text">В Крыму отреагировали<br>на слова Кравчука<br>о возврате полуострова</div>
+					<div id="main-news-date">19 Июня 2018</div>
+					<div id="main-news-time">10:48</div>
+				</div>
+				<div id="central-news">
+					<div class="central-left-container">
+						<img src="img/news2.jpg" alt="news2">
+						<h4>
+							Алексей Навальный объявил акцию против пенсионной реформы 1 июля
+						</h4>
+						<div class="news-item-props">
+							<a href="#">/Политика</a>
+							<div class="central-time">10:48</div>
+							<div class="central-count">15</div>
+						</div>
+					</div>
+					<div class="central-right-container">
+						<img src="img/news3.jpg" alt="news3">
+						<h4>
+							Дума увеличила пошлины<br>за выдачу загранпаспортов<br>и водительских прав
+						</h4>
+						<div class="news-item-props">
+							<a href="#">/Общество</a>
+							<div class="central-time">12:33</div>
+							<div class="central-count">36</div>
+						</div>
+					</div>
+					<div class="central-left-container">
+						<img src="img/news4.jpg" alt="news4">
+						<h4>
+							В России заработал стриминговый сервис YouTube
+						</h4>
+						<div class="news-item-props">
+							<a href="#">/Интернет</a>
+							<div class="central-time">11:17</div>
+							<div class="central-count">10</div>
+						</div>
+					</div>
+					<div class="central-right-container">
+						<img src="img/news5.jpg" alt="news5">
+						<h4>
+							Кейн признан лучшим игроком матча ЧМ-2018<br>Тунис — Англия
+						</h4>
+						<div class="news-item-props">
+							<a href="#">/Политика</a>
+							<div class="central-time">11:39</div>
+							<div class="central-count">25</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<div id="column-right">
+				<img src="img/banner-1.png" alt="banner-1">
+				<img src="img/banner-2.png" alt="banner-2">
+			</div>
+		</div>
+		<div class="fixed-container">
+			<div id="special-news">
+				<a href="#">/Политика</a>
+				<div id="special-news-text">Пекин обвинил Вашингтон в развязывании торговой войны</div>
+				<div id="special-news-date">19 Июня 2018</div>
+				<div id="special-news-time">10:48</div>
+				<div id="special-news-article">Министерство коммерции Китая заявило, что Пекин примет «качественные» и
+					«количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары</div>
+			</div>
+			<div id="special-news-right">
+				<h2>Самые читаемые новости</h2>
+				<h3>В Турции пообещали найти альтернативу из-за отказа США поставить F-35</h3>
+				<div class="news-item-props">
+					<a href="#">/Политика</a>
+					<div class="central-time">11:39</div>
+					<div class="central-count">25</div>
+				</div>
+				<h3>Назван минимальный доход для причисления к среднему классу</h3>
+				<div class="news-item-props">
+					<a href="#">/Политика</a>
+					<div class="central-time">11:39</div>
+					<div class="central-count">25</div>
+				</div>
+				<h3>Назван минимальный доход для причисления к среднему классу</h3>
+				<div class="news-item-props">
+					<a href="#">/Политика</a>
+					<div class="central-time">11:39</div>
+					<div class="central-count">25</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer-bar">
+		<div class="fixed-container">
+			<ul id="footer-list1">
+				<li>Главная</li>
+				<li>Политика</li>
+				<li>Общество</li>
+				<li>Экономика</li>
+				<li>В мире</li>
+			</ul>
+			<ul id="footer-list2">
+				<li>Путешествия</li>
+				<li>Спорт</li>
+				<li>Наука</li>
+				<li>Туризм</li>
+			</ul>
+			<ul id="footer-list3">
+				<li><img src="img/logo-white.png" alt="logo"></li>
+				<li>Об агенстве</li>
+				<li>Контакты</li>
+				<li>Опубликовать новость</li>
+			</ul>
+			<div id="social-icon">
+				<img src="img/icon-vk.png" alt="vk">
+				<img src="img/icon-facebook.png" alt="fb">
+				<img src="img/icon-twitter.png" alt="tw">
+				<img src="img/icon-instagram.png" alt="in">
+			</div>
+			<div id="contacts-phone">+7 (499) 995-55-55</div>
+			<div id="contacts-email">info@agency.ru</div>
+		</div>
+	</footer>
+	<footer id="copyrights">© Новостное агентство, 2017-2018 все права защищены</footer>
+</body>
+
+</html>

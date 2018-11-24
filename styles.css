@@ -1,0 +1,443 @@
+html,
+body {
+	/* min-width: 320px; */
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 34px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+h3 {
+	font-size: 16px;
+	width: 380px;
+}
+
+h4 {
+	font-size: 13px;
+	margin: 10px 0 20px;
+}
+
+ul {
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+#black-bar {
+	background-color: #00122f;
+	color: white;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+#black-bar a {
+	color: white;
+}
+
+#header-city {
+	position: absolute;
+	top: 50px;
+	left: 180px;
+}
+
+#header-city a {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+#header-city img {
+	position: absolute;
+	top: 2px;
+	left: 60px;
+}
+
+#weather-text {
+	position: absolute;
+	top: 50px;
+	left: 565px;
+	color: #91919f;
+}
+
+#weather-icon {
+	position: absolute;
+	top: 47px;
+	left: 527px;
+}
+
+#search-form input {
+	position: absolute;
+	top: 40px;
+	left: 655px;
+	background-color: #f3f3f3;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 120px 10px 20px;
+}
+
+#search-icon {
+	position: absolute;
+	top: 47px;
+	left: 920px;
+}
+
+.menu-text {
+	padding: 25px 30px 25px 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.menu-text-last {
+	padding: 25px 30px 25px 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.menu-text::after {
+	content: '/';
+	padding-left: 15px;
+	position: absolute;
+	color: #e1e1e5;
+}
+
+.fixed-container {
+	min-width: 320px;
+	max-width: 1000px;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#datetime {
+	float: right;
+}
+
+#header {
+	height: 100px;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+}
+
+#menu-container {
+	height: 70px;
+}
+
+#column-left {
+	background-color: #ffffff;
+	width: 250px;
+	float: left;
+}
+
+.news-item {
+	padding-left: 18px;
+	margin-bottom: 27px;
+	font-size: 14px;
+}
+
+.news-item-text {
+	margin-bottom: 20px;
+}
+
+.news-item-props {
+	font-size: 12px;
+	position: relative;
+}
+
+.news-item-props a {
+	color: #91919f;
+}
+
+.news-time {
+	position: absolute;
+	top: 0;
+	left: 120px;
+	padding-left: 15px;
+	background-image: url('img/icon-time.png');
+	background-repeat: no-repeat;
+}
+
+.news-comments-count {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	padding-left: 15px;
+	background-image: url('img/icon-comments.png');
+	background-repeat: no-repeat;
+}
+
+#all-news-button {
+	margin: 15px 35px 15px 20px;
+	border: 1px solid #448ccb;
+	border-radius: 25px;
+	padding: 15px 45px;
+	font-size: 14px;
+}
+
+#all-news-button a {
+	color: #448ccb;
+	text-decoration: none;
+}
+
+#currency {
+	margin-bottom: 20px;
+}
+
+#currency-value {
+	margin-top: 0;
+	margin-bottom: 5px;
+	background-color: #9bece6;
+	font-size: 17px;
+	text-align: center;
+
+}
+
+#currency p {
+	padding: 3px;
+}
+
+#rubbles,
+#dollars {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+#rubbles {
+	float: left;
+}
+
+#dollars {
+	float: right;
+}
+
+#column-center {
+	width: 420px;
+	margin-left: 20px;
+	float: left;
+}
+
+#main-news {
+	background-image: url('img/News1.jpg');
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 20px;
+	padding-top: 90px;
+}
+
+#main-news a {
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#main-news-text {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	width: 390px;
+}
+
+#main-news-date {
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+#main-news-time {
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	background-image: url('img/icon-time-white.png');
+	background-repeat: no-repeat;
+}
+
+.central-left-container {
+	display: inline-block;
+	width: 195px;
+	margin-top: 20px;
+}
+
+.central-right-container {
+	display: inline-block;
+	width: 195px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.central-right-container img {
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+.central-left-container img {
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+.central-time {
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 15px;
+	background-image: url('img/icon-time.png');
+	background-repeat: no-repeat;
+}
+
+.central-count {
+	display: inline-block;
+	margin-left: 20px;
+	padding-left: 15px;
+	background-image: url('img/icon-comments.png');
+	background-repeat: no-repeat;
+}
+
+#central-container {
+	padding-top: 20px;
+	background-color: #f9f9f9;
+	background-image: url('img/central-bg-top.png');
+	background-repeat: repeat-x;
+}
+
+#central-container .fixed-container {
+	overflow-y: hidden;
+}
+
+#column-right {
+	width: 250px;
+	float: right;
+}
+
+#column-right img {
+	margin-bottom: 20px;
+}
+
+#special-news {
+	margin-bottom: 60px;
+	background-image: url('img/news6.jpg');
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 20px;
+	padding-top: 110px;
+	padding-bottom: 30px;
+	display: inline-block;
+	width: 510px;
+}
+
+#special-news a {
+	color: white;
+	text-decoration: none;
+}
+
+#special-news-text {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	width: 390px;
+}
+
+#special-news-date {
+	font-size: 12px;
+	display: inline-block;
+}
+
+#special-news-time {
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	padding-left: 15px;
+	background-image: url('img/icon-time-white.png');
+	background-repeat: no-repeat;
+}
+
+#special-news-article {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 430px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#special-news-right {
+	display: inline-block;
+	width: 400px;
+	margin-left: 20px;
+}
+
+#special-news-right h2 {
+	padding-left: 0;
+}
+
+#footer-bar {
+	color: white;
+	background-color: #00122f;
+	position: relative;
+	height: 260px;
+	border-bottom: 1px solid #26354e;
+}
+
+#footer-list1 {
+	position: absolute;
+	top: 55px;
+}
+
+#footer-list2 {
+	position: absolute;
+	top: 55px;
+	left: 140px;
+}
+
+#footer-list3 {
+	position: absolute;
+	top: 55px;
+	left: 425px;
+}
+
+#social-icon {
+	position: absolute;
+	top: 55px;
+	left: 745px;
+}
+
+#social-icon img {
+	margin-left: 10px;
+}
+
+#contacts-phone {
+	position: absolute;
+	top: 130px;
+	left: 755px;
+	padding-left: 30px;
+	background-image: url('img/icon-phone.png');
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+#contacts-email {
+	position: absolute;
+	top: 170px;
+	left: 755px;
+	padding-left: 30px;
+	background-image: url('img/icon-email.png');
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+
+#copyrights {
+	color: white;
+	background-color: #00122f;
+	padding: 20px 0 20px;
+	text-align: center;
+	font-size: 14px;
+}
