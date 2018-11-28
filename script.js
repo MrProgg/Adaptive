@@ -9,3 +9,8 @@ $(function () {
 			$('#currency').append('<p id="dollars">USD: ' + usd +'</p>');
 		});
 	});
+
+	if ($(window).width() < 500 ) {
+    $("#input-placeholder").attr("placeholder","join our newsletter");
+}
+else { $("#input-placeholder").attr("placeholder","your email");}
